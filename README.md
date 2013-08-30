@@ -65,6 +65,8 @@ If you're feeling cavalier, at the very least make sure your modes are fairly dr
 
 ## Coming soon (when I get bored)
 
+* an install script (it's probably going to be ruby)
+* a script to pull keys out of an Android Google Authenticator sqlite db (also ruby)
 * openssl crypto for the key files at rest
 * encfs wrap/unwrap integration
 * ascii dongs at unexpected times
