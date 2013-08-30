@@ -57,6 +57,14 @@ Finally, copy and paste the whole thing at the end of your shell's rc or profile
 
 In the name of all that is good and holy, make sure you've got **TWO** 'greater-than' symbols in that command line, or you'll kill everything else in the file and cry forever.
 
+## Usage
+
+Dead easy. If you want to generate a password for 'service-name', just run:
+
+`p service-name`
+
+It'll return a six-digit number, which is your temporally-keyed password. If you're using Mac OS X and you've left clipboard functionality enabled, it'll also be silently copied to your clipboard (without a newline at the end) for pasting.
+
 ## Security concerns
 
 You've got plaintext keys sitting on your hard disk, so be smart. A nice way to keep things reasonably secure is to store your keys on an EncFS container or encrypted disk image, which you can mount only when you need to generate a password.  Remember, full-disk crypto won't help you if something goes looking for the key files while your machine is running.
