@@ -1,5 +1,15 @@
 #!/bin/bash
-source /usr/share/bash-completion/pass
+completions=(
+  /usr/share/bash-completion/pass
+  /usr/share/bash-completion/completions/pass
+)
+
+for path in "${completions[@]}"; do
+    if [ -f "$path" ]; then
+        source "$path"
+        break
+    fi
+done
 
 otp() {
   local content="$(pass show "$1")"
