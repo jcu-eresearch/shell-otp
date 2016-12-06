@@ -1,6 +1,7 @@
 # pass-otp
 
-Generate six-digit two-factor auth keys from your shell and Pass storage,
+Generate six-digit two-factor auth keys from your shell and
+[Pass](https://www.passwordstore.org/) storage,
 compatible with Google Authenticator and similar.
 
 ## Installation
