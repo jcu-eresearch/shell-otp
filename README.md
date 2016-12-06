@@ -8,7 +8,7 @@ compatible with Google Authenticator and similar.
 
     git clone https://github.com/jcu-eresearch/pass-otp
     cd pass-otp
-    echo "$pwd/pass-otp.sh" >> .bashrc
+    echo "source $(pwd)/pass-otp.sh" >> ~/.bashrc
 
 At the moment, the script is written to work with `bash`. Pull requests are
 welcome with support for other shells or platforms.

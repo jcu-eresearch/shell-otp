@@ -1,7 +1,7 @@
-﻿#!/bin/bash
+#!/bin/bash
 source /usr/share/bash-completion/pass
 
-function otp() {
+otp() {
   local content="$(pass show "$1")"
   local status=$?
   if [ "$status" -ne 0 ]; then
