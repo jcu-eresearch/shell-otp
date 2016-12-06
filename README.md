@@ -36,7 +36,8 @@ achieve this a few ways:
 
 * Disable and re-enable two-factor auth for all of your accounts, saving the
   QR codes and using a QR code reader to extract the keys. Much of the time
-  the service will give you the raw text-based key; just copy this.
+  the service will give you the raw text-based key; just copy this from the
+  area called something like `Can't scan the barcode?`.
 * Root your Android device, and extract the keys from the Google Authenticator
   sqlite database.
 * Jailbreak your iOS device, and go hunting for the Google Authenticator
